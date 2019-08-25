@@ -7,11 +7,8 @@ autosize: true
 First Slide
 ========================================================
 
-For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+The application explores bin widths (or the number of bins) affect a histogram. The histogram below is for the Cars data set. The observations are the stopping distance (in feet). Users can interactively change the bin width by dragging the arrow underneath the bin width scale.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
 
 Slide With Code
 ========================================================
@@ -24,5 +21,9 @@ Slide With Plot
 ========================================================
 
 ```{r, echo=FALSE}
+# generate bins based on input$bins from ui.R
+x    <- cars[, 2]
+bins <- seq(min(x), max(x), length.out = x + 1)
+        
 plot(cars)
 ```
