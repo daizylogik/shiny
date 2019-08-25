@@ -45,25 +45,22 @@ Rstudio presenter has a button to publish directly to Rpubs https://support.rstu
 You can also publish using both formats to github manually using gh-pages, though your github branch must have a .nojekyll fle and be on a branch names gh-pages. There's more on gh-pages here https://pages.github.com/ and there is a video lecture outlining how to do this.
 Review criteria
 
-# Your Shiny Application
+Application - Cars Dataset
 
-    1. Was there enough documentation on the shiny site for a user to get started using the application?
-    2. Did the application run as described in the documentation?
-    3. Was there some form of widget input (slider, textbox, radio buttons, checkbox, ...) in either ui.R or a custom web page?
-    4. Did server.R perform some calculations on the input in server.R?
-    5. Was the server calculation displayed in the html page?
-    6. Was the app substantively different than the very simple applications built in the class? Note, it's OK if the app is simple and based on the one presented in class. I just don't want it to be basically a carbon copy of the examples we covered. For example, if someone simply changed the variable names, then this would not count. However, a prediction algorithm that had a similar layout would be fine.
-    Here's your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.
+The application explores bin widths (or the number of bins) affect a histogram. The histogram below is for the Cars data set. The observations are the stopping distance (in feet). Users can interactively change the bin width by dragging the arrow underneath the bin width scale. 
 
-# Your Reproducible Pitch
+The repository consists of three final files:
 
-    1. Was the presentation completed in slidify or R Presenter?
-    2. Was it 5 pages?
-    3. Did it contain an R expression that got evaluated and displayed?
-    4. Did it contain an R expression that got evaluated and displayed?
-    5. Was it hosted on github or Rpubs?
-    6. Was the server calculation displayed in the html page?
-    
-    Here's your opportunity to give this presentation a +1 for being well done. Did they tinker around with the default style? Was the presentation particularly lucid and well organized? In other words, the student made a legitimate try.
-    There were no R errors displayed in the presentation.
+    shinyApp/ui.R
+    shinyApp/server.R
+    README.md
+
+
+The ui.R and server.R are the code for the shiny application: https://vmartinov.shinyapps.io/shinyApp/
+
+Application Details:
+
+    The shiny application is deployed on ShinyApps.io server at: https://vmartinov.shinyapps.io/shinyApp/
+    The RStudio presentation slides is published to RPubs at:...
+    Git repository at: https://github.com/daizylogik/shiny
 
