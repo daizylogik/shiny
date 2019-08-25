@@ -61,6 +61,6 @@ The ui.R and server.R are the code for the shiny application: https://vmartinov.
 Application Details:
 
     The shiny application is deployed on ShinyApps.io server at: https://vmartinov.shinyapps.io/shinyApp/
-    The RStudio presentation slides is published to RPubs at: http://rpubs.com/vmartinov/522089
+    The RStudio presentation slides is published to RPubs at: http://rpubs.com/vmartinov/522092
     Git repository at: https://github.com/daizylogik/shiny
 
