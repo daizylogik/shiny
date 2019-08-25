@@ -45,7 +45,7 @@ Rstudio presenter has a button to publish directly to Rpubs https://support.rstu
 You can also publish using both formats to github manually using gh-pages, though your github branch must have a .nojekyll fle and be on a branch names gh-pages. There's more on gh-pages here https://pages.github.com/ and there is a video lecture outlining how to do this.
 Review criteria
 
-Application - Cars Dataset
+# Application - Cars Dataset
 
 The application explores bin widths (or the number of bins) affect a histogram. The histogram below is for the Cars data set. The observations are the stopping distance (in feet). Users can interactively change the bin width by dragging the arrow underneath the bin width scale. 
 
